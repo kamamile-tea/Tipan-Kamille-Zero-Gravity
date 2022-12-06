@@ -1,0 +1,36 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="ButtonFunctions">
+			<method name="HighScores"/>
+			<method name="Instructions"/>
+			<method name="Level1"/>
+			<method name="Level1"/>
+			<method name="Level1"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="Menu"/>
+			<method name="PlayGame"/>
+			<method name="Settings"/>
+		</type>
+		<type fullname="Difficulty">
+			<method name="setEasy"/>
+			<method name="setHard"/>
+			<method name="setMedium"/>
+		</type>
+		<type fullname="PauseResume">
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Pause"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+			<method name="Resume"/>
+		</type>
+		<type fullname="SoundManager">
+			<method name="ChangeVolume"/>
+		</type>
+	</assembly>
+</linker>
